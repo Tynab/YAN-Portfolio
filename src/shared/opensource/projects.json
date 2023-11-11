@@ -1,0 +1,244 @@
+{
+    "data": [
+        {
+            "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+            "name": "CRM",
+            "createdAt": "2022-10-08",
+            "url": "https://github.com/Tynab/CRM-Project",
+            "description": "📒 CRM technology empowers businesses to build, manage, and grow customer relationships effectively.",
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "HTML",
+                    "iconifyClass": "vscode-icons:file-type-html"
+                },
+                {
+                    "name": "CSS",
+                    "iconifyClass": "vscode-icons:file-type-css"
+                },
+                {
+                    "name": "Java",
+                    "iconifyClass": "logos:java"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos:javascript"
+                },
+                {
+                    "name": "Thymeleaf",
+                    "iconifyClass": "logos:thymeleaf-icon"
+                },
+                {
+                    "name": "Spring",
+                    "iconifyClass": "logos:spring-icon"
+                },
+                {
+                    "name": "Auth0",
+                    "iconifyClass": "simple-icons:auth0"
+                },
+                {
+                    "name": "MySQL",
+                    "iconifyClass": "vscode-icons:file-type-mysql"
+                },
+                {
+                    "name": "Procfile",
+                    "iconifyClass": "vscode-icons:file-type-procfile"
+                },
+                {
+                    "name": "Dockerfile",
+                    "iconifyClass": "simple-icons:docker"
+                },
+                {
+                    "name": "Jenkinsfile",
+                    "iconifyClass": "simple-icons:jenkins"
+                }
+            ]
+        },
+        {
+            "id": "R_kgDOG_vYHA",
+            "name": "Ecommerce",
+            "createdAt": "2022-07-23",
+            "url": "https://github.com/Nohit-Java17/Jira-Project",
+            "description": "🛒 An e-commerce website facilitates end-to-end buying, from product display to transactions and customer support.",
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "HTML",
+                    "iconifyClass": "vscode-icons:file-type-html"
+                },
+                {
+                    "name": "CSS",
+                    "iconifyClass": "vscode-icons:file-type-css"
+                },
+                {
+                    "name": "Java",
+                    "iconifyClass": "logos:java"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos:javascript"
+                },
+                {
+                    "name": "Thymeleaf",
+                    "iconifyClass": "logos:thymeleaf-icon"
+                },
+                {
+                    "name": "Spring",
+                    "iconifyClass": "logos:spring-icon"
+                },
+                {
+                    "name": "Auth0",
+                    "iconifyClass": "simple-icons:auth0"
+                },
+                {
+                    "name": "MySQL",
+                    "iconifyClass": "vscode-icons:file-type-mysql"
+                },
+                {
+                    "name": "Procfile",
+                    "iconifyClass": "vscode-icons:file-type-procfile"
+                },
+                {
+                    "name": "Dockerfile",
+                    "iconifyClass": "simple-icons:docker"
+                },
+                {
+                    "name": "Jenkinsfile",
+                    "iconifyClass": "simple-icons:jenkins"
+                }
+            ]
+        },
+        {
+            "id": "R_kgDOG0_8uQ",
+            "name": "Analysis of hotel bookings in Portugal",
+            "createdAt": "2023-04-21",
+            "url": "https://github.com/Nihgi-DA08/Capstone-Project",
+            "description": "📶 Analyzing hotel bookings in Portugal to uncover insights and offer valuable recommendations for the hospitality industry stakeholders.",
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "Python",
+                    "iconifyClass": "logos:python"
+                },
+                {
+                    "name": "Jupyter Notebook",
+                    "iconifyClass": "logos:jupyter"
+                },
+                {
+                    "name": "Matplotlib",
+                    "iconifyClass": "logos:matplotlib-icon"
+                },
+                {
+                    "name": "NumPy",
+                    "iconifyClass": "logos:numpy"
+                },
+                {
+                    "name": "Pandas",
+                    "iconifyClass": "logos:pandas-icon"
+                },
+                {
+                    "name": "seaborn",
+                    "iconifyClass": "logos:seaborn-icon"
+                },
+                {
+                    "name": "Plotly",
+                    "iconifyClass": "devicon:plotly"
+                },
+                {
+                    "name": "scikit-learn",
+                    "iconifyClass": "devicon:scikitlearn"
+                },
+                {
+                    "name": "Procfile",
+                    "iconifyClass": "vscode-icons:file-type-procfile"
+                },
+                {
+                    "name": "Dockerfile",
+                    "iconifyClass": "simple-icons:docker"
+                },
+                {
+                    "name": "Jenkinsfile",
+                    "iconifyClass": "simple-icons:jenkins"
+                }
+            ]
+        },
+        {
+            "id": "R_kgDOGcPKSQ",
+            "name": "YANF",
+            "createdAt": "2022-09-29",
+            "url": "https://github.com/Tynab/YANF",
+            "description": "🚀 YANF enriches .NET Framework for creating dynamic Windows Forms Applications with advanced UI features.",
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "C#",
+                    "iconifyClass": "devicon:csharp"
+                },
+                {
+                    "name": ".NET",
+                    "iconifyClass": "logos:dotnet"
+                },
+                {
+                    "name": "nuget.config",
+                    "iconifyClass": "simple-icons:nuget"
+                }
+            ]
+        },
+        {
+            "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
+            "name": "YANLib",
+            "createdAt": "2023-01-15",
+            "url": "https://github.com/Tynab/YANLib",
+            "description": "🚀 YANLib optimizes .NET for efficient data processing with enhanced utilities for datetime, numbers, text, passwords, and JSON.",
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "C#",
+                    "iconifyClass": "devicon:csharp"
+                },
+                {
+                    "name": ".NET",
+                    "iconifyClass": "logos:dotnet"
+                },
+                {
+                    "name": "Azure App Service",
+                    "iconifyClass": "simple-icons:microsoftazure"
+                },
+                {
+                    "name": "Dockerfile",
+                    "iconifyClass": "simple-icons:docker"
+                },
+                {
+                    "name": "Jenkinsfile",
+                    "iconifyClass": "simple-icons:jenkins"
+                },
+                {
+                    "name": "nuget.config",
+                    "iconifyClass": "simple-icons:nuget"
+                }
+            ]
+        },
+        {
+            "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+            "name": "Id generator Snowflake",
+            "createdAt": "2023-07-07",
+            "url": "https://github.com/Tynab-x-Longkunz/Id-Generator-Snowflake",
+            "description": "🚀 A library generating unique IDs based on the Snowflake algorithm, customizable for Worker ID and Datacenter ID.",
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "C#",
+                    "iconifyClass": "devicon:csharp"
+                },
+                {
+                    "name": ".NET",
+                    "iconifyClass": "logos:dotnet"
+                },
+                {
+                    "name": "nuget.config",
+                    "iconifyClass": "simple-icons:nuget"
+                }
+            ]
+        }
+    ]
+}
