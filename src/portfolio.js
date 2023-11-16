@@ -439,6 +439,10 @@ const skills = {
                     imageSrc: "S3.png",
                 },
                 {
+                    skillName: "AWS CodeCommit",
+                    imageSrc: "CodeCommit.png",
+                },
+                {
                     skillName: "Amazon MQ",
                     imageSrc: "AmazonMQ.png",
                 },
