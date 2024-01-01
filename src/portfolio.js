@@ -196,6 +196,10 @@ const skills = {
                     imageSrc: "Blazor.png",
                 },
                 {
+                    skillName: "Angular",
+                    imageSrc: "Angular.png",
+                },
+                {
                     skillName: "Xamarin",
                     imageSrc: "Xamarin.png",
                 },
@@ -271,24 +275,12 @@ const skills = {
                     imageSrc: "K9s.png",
                 },
                 {
-                    skillName: "Elasticsearch",
-                    imageSrc: "Elasticsearch.png",
+                    skillName: "Elastic Stack",
+                    imageSrc: "ElasticStack.png",
                 },
                 {
-                    skillName: "Logstash",
-                    imageSrc: "Logstash.png",
-                },
-                {
-                    skillName: "Kibana",
-                    imageSrc: "Kibana.png",
-                },
-                {
-                    skillName: "Elastic APM",
-                    imageSrc: "APM.png",
-                },
-                {
-                    skillName: "Elastic Beats",
-                    imageSrc: "Beats.png",
+                    skillName: "Kong Gateway",
+                    imageSrc: "Kong.png",
                 },
                 {
                     skillName: "Wazuh",
@@ -335,6 +327,10 @@ const skills = {
                     imageSrc: "Kafka.png",
                 },
                 {
+                    skillName: "Apache Pulsar",
+                    imageSrc: "Pulsar.png",
+                },
+                {
                     skillName: "Git",
                     imageSrc: "Git.png",
                 },
@@ -355,120 +351,16 @@ const skills = {
                     imageSrc: "Bitbucket.png",
                 },
                 {
-                    skillName: "Azure Devops",
-                    imageSrc: "AzureDevops.png",
+                    skillName: "Azure",
+                    imageSrc: "Azure.png",
                 },
                 {
-                    skillName: "Azure Boards",
-                    imageSrc: "AzureBoards.png",
+                    skillName: "AWS",
+                    imageSrc: "AWS.png",
                 },
                 {
-                    skillName: "Azure Repos",
-                    imageSrc: "AzureRepos.png",
-                },
-                {
-                    skillName: "Azure Pipelines",
-                    imageSrc: "AzurePipelines.png",
-                },
-                {
-                    skillName: "Azure Test Plans",
-                    imageSrc: "AzureTestPlans.png",
-                },
-                {
-                    skillName: "Azure Artifacts",
-                    imageSrc: "AzureArtifacts.png",
-                },
-                {
-                    skillName: "Azure App Service",
-                    imageSrc: "AzureAppService.png",
-                },
-                {
-                    skillName: "Azure Cache for Redis",
-                    imageSrc: "RedisAzure.png",
-                },
-                {
-                    skillName: "Azure Service Bus",
-                    imageSrc: "ServiceBus.png",
-                },
-                {
-                    skillName: "AWS IAM",
-                    imageSrc: "IAM.png",
-                },
-                {
-                    skillName: "AWS VPC",
-                    imageSrc: "VPC.png",
-                },
-                {
-                    skillName: "AWS Lambda",
-                    imageSrc: "Lambda.png",
-                },
-                {
-                    skillName: "AWS EC2",
-                    imageSrc: "EC2.png",
-                },
-                {
-                    skillName: "AWS EKS",
-                    imageSrc: "EKS.png",
-                },
-                {
-                    skillName: "AWS ECS",
-                    imageSrc: "ECS.png",
-                },
-                {
-                    skillName: "AWS ECR",
-                    imageSrc: "ECR.png",
-                },
-                {
-                    skillName: "AWS RDS",
-                    imageSrc: "RDS.png",
-                },
-                {
-                    skillName: "Amazon DocumentDB",
-                    imageSrc: "AmazonDocumentDB.png",
-                },
-                {
-                    skillName: "AWS ElastiCache",
-                    imageSrc: "ElastiCache.png",
-                },
-                {
-                    skillName: "Amazon OpenSearch Service",
-                    imageSrc: "AmazonOpenSearchService.png",
-                },
-                {
-                    skillName: "AWS S3",
-                    imageSrc: "S3.png",
-                },
-                {
-                    skillName: "AWS CodeCommit",
-                    imageSrc: "CodeCommit.png",
-                },
-                {
-                    skillName: "Amazon MQ",
-                    imageSrc: "AmazonMQ.png",
-                },
-                {
-                    skillName: "AWS CloudFront",
-                    imageSrc: "CloudFront.png",
-                },
-                {
-                    skillName: "AWS CloudWatch",
-                    imageSrc: "CloudWatch.png",
-                },
-                {
-                    skillName: "AWS Route 53",
-                    imageSrc: "Route53.png",
-                },
-                {
-                    skillName: "AWS Certificate Manager",
-                    imageSrc: "CertificateManager.png",
-                },
-                {
-                    skillName: "AWS Billing",
-                    imageSrc: "Billing.png",
-                },
-                {
-                    skillName: "AWS Cost Management",
-                    imageSrc: "AWSCostManagement.png",
+                    skillName: "Google Cloud Platform",
+                    imageSrc: "Google.png",
                 },
                 {
                     skillName: "Heroku",
