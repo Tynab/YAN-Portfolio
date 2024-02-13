@@ -17,12 +17,16 @@
                     "iconifyClass": "vscode-icons:file-type-css"
                 },
                 {
-                    "name": "Java",
-                    "iconifyClass": "logos:java"
-                },
-                {
                     "name": "JavaScript",
                     "iconifyClass": "logos:javascript"
+                },
+                {
+                    "name": "jQuery",
+                    "iconifyClass": "devicon:jquery"
+                },
+                {
+                    "name": "Java",
+                    "iconifyClass": "logos:java"
                 },
                 {
                     "name": "Thymeleaf",
@@ -34,7 +38,7 @@
                 },
                 {
                     "name": "Auth0",
-                    "iconifyClass": "simple-icons:auth0"
+                    "iconifyClass": "logos:auth0-icon"
                 },
                 {
                     "name": "MySQL",
@@ -42,15 +46,23 @@
                 },
                 {
                     "name": "Procfile",
-                    "iconifyClass": "vscode-icons:file-type-procfile"
+                    "iconifyClass": "devicon:heroku"
                 },
                 {
                     "name": "Dockerfile",
-                    "iconifyClass": "simple-icons:docker"
+                    "iconifyClass": "skill-icons:docker"
                 },
                 {
                     "name": "Jenkinsfile",
-                    "iconifyClass": "simple-icons:jenkins"
+                    "iconifyClass": "vscode-icons:file-type-jenkins"
+                },
+                {
+                    "name": "Git",
+                    "iconifyClass": "devicon:git"
+                },
+                {
+                    "name": "GitHub",
+                    "iconifyClass": "icon-park:github"
                 }
             ]
         },
@@ -71,12 +83,16 @@
                     "iconifyClass": "vscode-icons:file-type-css"
                 },
                 {
-                    "name": "Java",
-                    "iconifyClass": "logos:java"
-                },
-                {
                     "name": "JavaScript",
                     "iconifyClass": "logos:javascript"
+                },
+                {
+                    "name": "jQuery",
+                    "iconifyClass": "devicon:jquery"
+                },
+                {
+                    "name": "Java",
+                    "iconifyClass": "logos:java"
                 },
                 {
                     "name": "Thymeleaf",
@@ -88,7 +104,7 @@
                 },
                 {
                     "name": "Auth0",
-                    "iconifyClass": "simple-icons:auth0"
+                    "iconifyClass": "logos:auth0-icon"
                 },
                 {
                     "name": "MySQL",
@@ -96,15 +112,23 @@
                 },
                 {
                     "name": "Procfile",
-                    "iconifyClass": "vscode-icons:file-type-procfile"
+                    "iconifyClass": "devicon:heroku"
                 },
                 {
                     "name": "Dockerfile",
-                    "iconifyClass": "simple-icons:docker"
+                    "iconifyClass": "skill-icons:docker"
                 },
                 {
                     "name": "Jenkinsfile",
-                    "iconifyClass": "simple-icons:jenkins"
+                    "iconifyClass": "vscode-icons:file-type-jenkins"
+                },
+                {
+                    "name": "Git",
+                    "iconifyClass": "devicon:git"
+                },
+                {
+                    "name": "GitHub",
+                    "iconifyClass": "icon-park:github"
                 }
             ]
         },
@@ -150,15 +174,27 @@
                 },
                 {
                     "name": "Procfile",
-                    "iconifyClass": "vscode-icons:file-type-procfile"
+                    "iconifyClass": "devicon:heroku"
                 },
                 {
                     "name": "Dockerfile",
-                    "iconifyClass": "simple-icons:docker"
+                    "iconifyClass": "skill-icons:docker"
                 },
                 {
                     "name": "Jenkinsfile",
-                    "iconifyClass": "simple-icons:jenkins"
+                    "iconifyClass": "vscode-icons:file-type-jenkins"
+                },
+                {
+                    "name": "Git",
+                    "iconifyClass": "devicon:git"
+                },
+                {
+                    "name": "GitHub",
+                    "iconifyClass": "icon-park:github"
+                },
+                {
+                    "name": "Git LFS",
+                    "iconifyClass": "simple-icons:gitlfs"
                 }
             ]
         },
@@ -180,7 +216,15 @@
                 },
                 {
                     "name": "nuget.config",
-                    "iconifyClass": "simple-icons:nuget"
+                    "iconifyClass": "devicon:nuget"
+                },
+                {
+                    "name": "Git",
+                    "iconifyClass": "devicon:git"
+                },
+                {
+                    "name": "GitHub",
+                    "iconifyClass": "icon-park:github"
                 }
             ]
         },
@@ -201,20 +245,56 @@
                     "iconifyClass": "logos:dotnet"
                 },
                 {
-                    "name": "Azure App Service",
-                    "iconifyClass": "simple-icons:microsoftazure"
+                    "name": "Microsoft SQL Server",
+                    "iconifyClass": "devicon:microsoftsqlserver"
                 },
                 {
-                    "name": "Dockerfile",
-                    "iconifyClass": "simple-icons:docker"
+                    "name": "MongoDB",
+                    "iconifyClass": "vscode-icons:file-type-mongo"
                 },
                 {
-                    "name": "Jenkinsfile",
-                    "iconifyClass": "simple-icons:jenkins"
+                    "name": "Redis",
+                    "iconifyClass": "logos:redis"
+                },
+                {
+                    "name": "Elastic Stack",
+                    "iconifyClass": "vscode-icons:file-type-elastic"
+                },
+                {
+                    "name": "Apache Kafka",
+                    "iconifyClass": "logos:kafka-icon"
+                },
+                {
+                    "name": "RabbitMQ",
+                    "iconifyClass": "devicon:rabbitmq"
+                },
+                {
+                    "name": "Apache Pulsar",
+                    "iconifyClass": "simple-icons:apachepulsar"
+                },
+                {
+                    "name": "Azure Service Bus",
+                    "iconifyClass": "devicon:azure"
                 },
                 {
                     "name": "nuget.config",
-                    "iconifyClass": "simple-icons:nuget"
+                    "iconifyClass": "devicon:nuget"
+                },
+                {
+                    "name": "Dockerfile",
+                    "iconifyClass": "skill-icons:docker"
+                },
+                {
+                    "name": "Jenkinsfile",
+                    "iconifyClass": "vscode-icons:file-type-jenkins"
+                },
+                {
+                    "name": "Git",
+                    "iconifyClass": "devicon:git"
+                },
+                {
+                    "name": "GitHub",
+                    "iconifyClass": "icon-park:github"
                 }
             ]
         },
@@ -236,7 +316,15 @@
                 },
                 {
                     "name": "nuget.config",
-                    "iconifyClass": "simple-icons:nuget"
+                    "iconifyClass": "devicon:nuget"
+                },
+                {
+                    "name": "Git",
+                    "iconifyClass": "devicon:git"
+                },
+                {
+                    "name": "GitHub",
+                    "iconifyClass": "icon-park:github"
                 }
             ]
         }
