@@ -121,6 +121,10 @@ const skills = {
                     imageSrc: "Plotly.png",
                 },
                 {
+                    skillName: "SciPy",
+                    imageSrc: "SciPy.png",
+                },
+                {
                     skillName: "scikit-learn",
                     imageSrc: "sklearn.png",
                 },
@@ -184,6 +188,10 @@ const skills = {
                     imageSrc: "Java.png",
                 },
                 {
+                    skillName: "Thymeleaf",
+                    imageSrc: "Thymeleaf.png",
+                },
+                {
                     skillName: "Boostrap",
                     imageSrc: "Boostrap.png",
                 },
@@ -222,6 +230,14 @@ const skills = {
                 {
                     skillName: "Spring",
                     imageSrc: "Spring.png",
+                },
+                {
+                    skillName: "DotNetCore.CAP",
+                    imageSrc: "CAP.png",
+                },
+                {
+                    skillName: "Lombok",
+                    imageSrc: "Lombok.png",
                 },
             ],
         },
@@ -293,6 +309,10 @@ const skills = {
                 {
                     skillName: "NGINX",
                     imageSrc: "NGINX.png",
+                },
+                {
+                    skillName: "NGINX Proxy Manager",
+                    imageSrc: "NGINXProxyManager.png",
                 },
                 {
                     skillName: "ngrok",
@@ -544,7 +564,7 @@ const certifications = {
             certificate_link:
                 "https://certificate.testcenter.vn/dUd-Vz0fMlcZNV9GVjE2bFN7SXU",
             alt_name: "HTML",
-            color_code: "#8EE852",
+            color_code: "#FEC569",
         },
         {
             title: "Java",
@@ -553,7 +573,7 @@ const certifications = {
             certificate_link:
                 "https://www.hackerrank.com/certificates/18b8b69e9e0f",
             alt_name: "Java",
-            color_code: "#FF87D3",
+            color_code: "#FD7C80",
         },
         {
             title: "JavaScript",
@@ -562,7 +582,7 @@ const certifications = {
             certificate_link:
                 "https://www.hackerrank.com/certificates/9136c4f105da",
             alt_name: "JS",
-            color_code: "#F2BC47",
+            color_code: "#82E4CD",
         },
         {
             title: "Python",
@@ -571,16 +591,16 @@ const certifications = {
             certificate_link:
                 "https://www.hackerrank.com/certificates/923b39aff6b7",
             alt_name: "Python",
-            color_code: "#7AD6ED",
+            color_code: "#F5DEB5",
         },
         {
             title: "PHP",
             subtitle: "Top 20%",
             logo_path: "testcenter.png",
             certificate_link:
-                "https://certificate.testcenter.vn/dkN_Uz0fMlcZNV9GVjE2bFN7SXU",
+                "https://certificate.testcenter.vn/ekZ-Vz0fMlcZNV9GVjE2bFN7SXU",
             alt_name: "PHP",
-            color_code: "#FFD96A",
+            color_code: "#DB4FA5",
         },
         {
             title: "Go",
@@ -589,7 +609,7 @@ const certifications = {
             certificate_link:
                 "https://www.hackerrank.com/certificates/fe8553df0712",
             alt_name: "Go",
-            color_code: "#F48251",
+            color_code: "#F0D1CE",
         },
         {
             title: "SQL",
@@ -598,7 +618,7 @@ const certifications = {
             certificate_link:
                 "https://www.hackerrank.com/certificates/9c262c7c1e37",
             alt_name: "SQL",
-            color_code: "#79BBDB",
+            color_code: "#FFC347",
         },
         {
             title: "MySQL",
@@ -607,7 +627,7 @@ const certifications = {
             certificate_link:
                 "https://certificate.testcenter.vn/dEB_Vz0fMlcZNV9GVjE2bFN7SXU",
             alt_name: "MySQL",
-            color_code: "#4BFCB2",
+            color_code: "#A47DD0",
         },
         {
             title: "Wordpress",
@@ -616,25 +636,25 @@ const certifications = {
             certificate_link:
                 "https://certificate.testcenter.vn/dEB_Vj0fMlcZNV9GVjE2bFN7SXU",
             alt_name: "Wordpress",
-            color_code: "#DFABFD",
+            color_code: "#00E65F",
         },
         {
-            title: "ReactJS",
-            subtitle: "Top 20%",
-            logo_path: "testcenter.png",
+            title: "Frontend Developer",
+            subtitle: "React",
+            logo_path: "hackerrank.png",
             certificate_link:
-                "https://certificate.testcenter.vn/dUR_Wz0fMlcZNV9GVjE2bFN7SXU",
-            alt_name: "ReactJS",
-            color_code: "#FF8787",
+                "https://www.hackerrank.com/certificates/4ad345e70e8d",
+            alt_name: "React",
+            color_code: "#6629FF",
         },
         {
             title: "Spring",
             subtitle: "Very Good",
             logo_path: "cybersoft.png",
             certificate_link:
-                "https://pbs.twimg.com/media/F8AVkarbkAA8UaA?format=jpg&name=large",
+                "https://lh3.googleusercontent.com/u/1/drive-viewer/AEYmBYTDe2UTW782Hj2B9VeYl9awysyzxI6vfF-HSr6zysWYzTwNBzPPQU9y1UDdl_HvWmJSmNnPVB3fIk56WQLLqmpPIuwzXQ=w1920-h911",
             alt_name: "Spring",
-            color_code: "#2281BB",
+            color_code: "#0357D3",
         },
         {
             title: "Git",
@@ -642,8 +662,8 @@ const certifications = {
             logo_path: "testcenter.png",
             certificate_link:
                 "https://certificate.testcenter.vn/dUd-Vj0fMlcZNV9GVjE2bFN7SXU",
-            alt_name: "GCP",
-            color_code: "#87F0C7",
+            alt_name: "Git",
+            color_code: "#E69BD2",
         },
         {
             title: "Rest API",
@@ -652,7 +672,7 @@ const certifications = {
             certificate_link:
                 "https://www.hackerrank.com/certificates/51c373908367",
             alt_name: "API",
-            color_code: "#000000",
+            color_code: "#FF0759",
         },
         {
             title: "DX",
@@ -661,7 +681,7 @@ const certifications = {
             certificate_link:
                 "https://pbs.twimg.com/media/F7rnnZwaMAApOkk?format=jpg&name=large",
             alt_name: "DX",
-            color_code: "#FFFFFF",
+            color_code: "#FF6501",
         },
         {
             title: "Problem Solving",
@@ -670,7 +690,7 @@ const certifications = {
             certificate_link:
                 "https://www.hackerrank.com/certificates/afa149d488a2",
             alt_name: "Problem Solving",
-            color_code: "#F0F0F0",
+            color_code: "#FFD304",
         },
         {
             title: "Agile",
@@ -679,7 +699,7 @@ const certifications = {
             certificate_link:
                 "https://certificate.testcenter.vn/dUd-VT0fMlcZNV9GVjE2bFN7SXU",
             alt_name: "Agile",
-            color_code: "#E07BBF",
+            color_code: "#D44CC6",
         },
         {
             title: "Teamwork",
@@ -688,16 +708,43 @@ const certifications = {
             certificate_link:
                 "https://certificate.testcenter.vn/dE94Uz0fMlcZNV9GVjE2bFN7SXU",
             alt_name: "Teamwork",
-            color_code: "#D58FFF",
+            color_code: "#C3F148",
+        },
+        {
+            title: "Software Engineer",
+            subtitle: "It covers topics like Problem solving, SQL, and REST API.",
+            logo_path: "hackerrank.png",
+            certificate_link:
+                "https://www.hackerrank.com/certificates/21f4d932e858",
+            alt_name: "Software Engineer",
+            color_code: "#A45CFE",
+        },
+        {
+            title: "Presentation",
+            subtitle: "Top 20%",
+            logo_path: "testcenter.png",
+            certificate_link:
+                "https://certificate.testcenter.vn/ekZ7Vz0fMlcZNV9GVjE2bFN7SXU",
+            alt_name: "Presentation",
+            color_code: "#86FE92",
+        },
+        {
+            title: "Data Analysis",
+            subtitle: "Top 20%",
+            logo_path: "testcenter.png",
+            certificate_link:
+                "https://certificate.testcenter.vn/ekZ-VD0fMlcZNV9GVjE2bFN7SXU",
+            alt_name: "DA",
+            color_code: "#00E2FF",
         },
         {
             title: "DA",
             subtitle: "Data Analyst",
             logo_path: "cybersoft.png",
             certificate_link:
-                "https://pbs.twimg.com/media/F8gGEktbcAAbQud?format=jpg&name=large",
+                "https://lh3.googleusercontent.com/u/1/drive-viewer/AEYmBYQKiQ7NId1uy7SkIp8BGgQvOScepp1NQ-ZYDGUBBM1z3d8HC4tBgb641F2cK8Ujchxoxlm2TeUOiBJ7Z-KZKJsms5VY4A=w1920-h911",
             alt_name: "DA",
-            color_code: "#7A5ECC",
+            color_code: "#BAEEF9",
         },
     ],
 };
