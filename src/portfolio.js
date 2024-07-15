@@ -789,7 +789,7 @@ const experience = {
                     color: "#0879bf",
                 },
                 {
-                    title: "Software Engineer",
+                    title: "Team Leader",
                     company: "FPT Retail",
                     company_url: "https://frt.vn/",
                     logo_path: "frt.png",
