@@ -97,6 +97,10 @@ const skills = {
             ],
             softwareSkills: [
                 {
+                    skillName: "Python",
+                    imageSrc: "Python.png",
+                },
+                {
                     skillName: "Jupyter Notebook",
                     imageSrc: "JupyterNotebook.png",
                 },
@@ -283,8 +287,16 @@ const skills = {
                     imageSrc: "Docker.png",
                 },
                 {
+                    skillName: "Podman",
+                    imageSrc: "Podman.png",
+                },
+                {
                     skillName: "Kubernetes",
                     imageSrc: "K8s.png",
+                },
+                {
+                    skillName: "Minikube",
+                    imageSrc: "Minikube.png",
                 },
                 {
                     skillName: "K9s",
@@ -424,6 +436,10 @@ const skills = {
                 {
                     skillName: "Unity",
                     imageSrc: "Unity.png",
+                },
+                {
+                    skillName: "Godot",
+                    imageSrc: "Godot.png",
                 },
                 {
                     skillName: "Swift",
@@ -652,7 +668,7 @@ const certifications = {
             subtitle: "Very Good",
             logo_path: "cybersoft.png",
             certificate_link:
-                "https://lh3.googleusercontent.com/u/1/drive-viewer/AEYmBYTDe2UTW782Hj2B9VeYl9awysyzxI6vfF-HSr6zysWYzTwNBzPPQU9y1UDdl_HvWmJSmNnPVB3fIk56WQLLqmpPIuwzXQ=w1920-h911",
+                "https://drive.google.com/file/d/10JSIUge0uaZv09QnLi13nMMEI8js1xl-/view?usp=drive_link",
             alt_name: "Spring",
             color_code: "#0357D3",
         },
@@ -679,7 +695,7 @@ const certifications = {
             subtitle: "Digital Transformation",
             logo_path: "fpt.png",
             certificate_link:
-                "https://pbs.twimg.com/media/F7rnnZwaMAApOkk?format=jpg&name=large",
+                "https://drive.google.com/file/d/1--a1O9aOZuRz6wjtQUmCSTvxRYEZBm2X/view?usp=drive_link",
             alt_name: "DX",
             color_code: "#FF6501",
         },
@@ -729,20 +745,20 @@ const certifications = {
             color_code: "#86FE92",
         },
         {
-            title: "Data Analysis",
-            subtitle: "Top 20%",
-            logo_path: "testcenter.png",
-            certificate_link:
-                "https://certificate.testcenter.vn/ekZ-VD0fMlcZNV9GVjE2bFN7SXU",
-            alt_name: "DA",
-            color_code: "#00E2FF",
-        },
-        {
             title: "DA",
             subtitle: "Data Analyst",
             logo_path: "cybersoft.png",
             certificate_link:
-                "https://lh3.googleusercontent.com/u/1/drive-viewer/AEYmBYQKiQ7NId1uy7SkIp8BGgQvOScepp1NQ-ZYDGUBBM1z3d8HC4tBgb641F2cK8Ujchxoxlm2TeUOiBJ7Z-KZKJsms5VY4A=w1920-h911",
+                "https://drive.google.com/file/d/1-4gb3YPDXbZqzrPKO_rbRI1pVEQTQy6s/view?usp=drive_link",
+            alt_name: "DA",
+            color_code: "#00E2FF",
+        },
+        {
+            title: "ML",
+            subtitle: "Machine Learning",
+            logo_path: "cybersoft.png",
+            certificate_link:
+                "https://drive.google.com/file/d/1-H9-u_GGE_xa5Aq2Q9dpcBbhi9R00Ebw/view?usp=drive_link",
             alt_name: "DA",
             color_code: "#BAEEF9",
         },
