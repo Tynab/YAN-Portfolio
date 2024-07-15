@@ -26,15 +26,15 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_PRE}' --form chat_id='${CHAT_ID}'"
-                sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_BUILD}' --form chat_id='${CHAT_ID}'"
+                // sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_PRE}' --form chat_id='${CHAT_ID}'"
+                // sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_BUILD}' --form chat_id='${CHAT_ID}'"
                 sh 'docker build -t yamiannephilim/portfolio:latest .'
             }
         }
 
         stage('Push') {
             steps {
-                sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_PUSH}' --form chat_id='${CHAT_ID}'"
+                // sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_PUSH}' --form chat_id='${CHAT_ID}'"
 
                 withDockerRegistry(credentialsId: 'docker_hub', url: 'https://index.docker.io/v1/') {
                     sh 'docker push yamiannephilim/portfolio'
@@ -44,7 +44,7 @@ pipeline {
 
         stage('Clean') {
             steps {
-                sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_CLEAN}' --form chat_id='${CHAT_ID}'"
+                // sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_CLEAN}' --form chat_id='${CHAT_ID}'"
 
                 script {
                     def containerId = sh(returnStdout: true, script: 'docker ps -aqf "name=portfolio"').trim()
@@ -58,7 +58,7 @@ pipeline {
 
         stage('Run') {
             steps {
-                sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_RUN}' --form chat_id='${CHAT_ID}'"
+                // sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_RUN}' --form chat_id='${CHAT_ID}'"
                 sh 'docker container stop portfolio || echo "this container does not exist"'
                 sh 'docker network create yan || echo "this network exist"'
                 sh 'echo y | docker container prune'
@@ -67,21 +67,21 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            cleanWs()
-        }
+    // post {
+    //     always {
+    //         cleanWs()
+    //     }
 
-        success {
-            script {
-                sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_SUCCESS_BUILD}' --form chat_id='${CHAT_ID}'"
-            }
-        }
+    //     success {
+    //         script {
+    //             sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_SUCCESS_BUILD}' --form chat_id='${CHAT_ID}'"
+    //         }
+    //     }
 
-        failure {
-            script {
-                sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_FAILURE_BUILD}' --form chat_id='${CHAT_ID}'"
-            }
-        }
-    }
+    //     failure {
+    //         script {
+    //             sh "curl --location --request POST 'https://api.telegram.org/bot${TOKEN}/sendMessage' --form text='${TEXT_FAILURE_BUILD}' --form chat_id='${CHAT_ID}'"
+    //         }
+    //     }
+    // }
 }
