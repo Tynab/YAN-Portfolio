@@ -782,7 +782,7 @@ const experience = {
                     company: "Hoozing",
                     company_url: "https://hoozing.com/",
                     logo_path: "hoozing.png",
-                    duration: "Aug 2023 - Now",
+                    duration: "Jul 2023 - Now",
                     location: "District 2, Thu Duc City",
                     description:
                         "The Hoozing Integrated Platform & System encompasses a range of projects including HzWebsite, HzAgentWebsite, and HzExternalAgent. It's designed to aid both customers and real estate agents in the comprehensive management, marketing, buying, selling, and renting of real estate properties.",
@@ -793,7 +793,7 @@ const experience = {
                     company: "FPT Retail",
                     company_url: "https://frt.vn/",
                     logo_path: "frt.png",
-                    duration: "Aug 2022 - Aug 2023",
+                    duration: "Jul 2022 - Jul 2023",
                     location: "District 7, Ho Chi Minh City",
                     description:
                         "As a maintainer for the Inventory, POS Wrapper, and OSR sources, I played a key role in a digital transformation project for Long Chau and FPT Shop. This involved integrating multiple streams, such as OMS, to ensure asmooth and efficient transition to a digital platform.",
@@ -804,7 +804,7 @@ const experience = {
                     company: "Emar Viet Nam",
                     company_url: "https://www.emar.co.jp/",
                     logo_path: "emar.png",
-                    duration: "Jul 2017 - Aug 2022",
+                    duration: "Jul 2017 - Jul 2022",
                     location: "District 8, Ho Chi Minh City",
                     description:
                         "Conduct structural analysis, review foundational documentation for 住友林業, calculate spacer blocks for 三菱, 小田急, 東急, ヤマビコ, determine reinforcement slab areas for 住宅 and 一建, input masses for 茨城, 東北 and 峰岸, and calculate steel reinforcement and unit dimensions. Additionally, estimate the required raw timber quantity.",
