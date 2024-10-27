@@ -779,10 +779,21 @@ const experience = {
             experiences: [
                 {
                     title: "Technical Leader",
+                    company: "Terralogic",
+                    company_url: "https://terralogic.com/",
+                    logo_path: "terralogic.png",
+                    duration: "Nov 2023 - Now",
+                    location: "Tan Binh District, Ho Chi Minh City",
+                    description:
+                        "At GIIS, I led digital transformation projects in education, including the TMS, SDP, Helpdesk, Timetable, and Course management. My focus was on architectural design, optimizing data flows, and implementing AWS cloud solutions to enhance administrative efficiency and educational interactions.",
+                    color: "#ee3c26",
+                },
+                {
+                    title: "Technical Leader",
                     company: "Hoozing",
                     company_url: "https://hoozing.com/",
                     logo_path: "hoozing.png",
-                    duration: "Jul 2023 - Now",
+                    duration: "Jul 2023 - Nov 2023",
                     location: "District 2, Thu Duc City",
                     description:
                         "The Hoozing Integrated Platform & System encompasses a range of projects including HzWebsite, HzAgentWebsite, and HzExternalAgent. It's designed to aid both customers and real estate agents in the comprehensive management, marketing, buying, selling, and renting of real estate properties.",
@@ -836,7 +847,7 @@ const experience = {
                     company: "CyberSoft Academy",
                     company_url: "https://cybersoft.edu.vn/",
                     logo_path: "cybersoft_academy.png",
-                    duration: "June 2023 - Now",
+                    duration: "Jun 2023 - Jun 2024",
                     location: "District 1, Ho Chi Minh City",
                     description:
                         "At the academy, my role as a Data Analysis mentor involves guiding and imparting expertise in diverse data analysis methods to students, nurturing the growth of their analytical abilities. I support their journey by sharing insights, techniques, and fostering a deeper understanding of data analysis, aiding in the refinement of their analytical prowess within the academic realm.",
