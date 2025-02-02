@@ -25,7 +25,7 @@ const greeting = {
     subTitle:
         "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
     resumeLink:
-        "https://drive.google.com/file/d/10ZAM2RpPHvAJql1vWdK5vrvjkVDdOsyy/view?usp=sharing",
+        "https://drive.google.com/file/d/1HqRpwMKDX9vYGbZFWkyDungwJ_pgMFe_/view?usp=sharing",
     portfolio_repository: "https://github.com/Tynab/YAN-Portfolio",
     githubProfile: "https://github.com/Tynab",
     github_repo: "https://github.com/Tynab?tab=repositories",
@@ -54,12 +54,6 @@ const socialMediaLinks = [
         backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
     },
     {
-        name: "YouTube",
-        link: "https://www.youtube.com/@yanfastfurious",
-        fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-        backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-    },
-    {
         name: "Gmail",
         link: "mailto:yamiannephilim@gmail.com",
         fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
@@ -76,13 +70,7 @@ const socialMediaLinks = [
         link: "https://www.facebook.com/yami.an.nephilim/",
         fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
         backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-    },
-    {
-        name: "Instagram",
-        link: "https://www.instagram.com/yami.an.nephilim/",
-        fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-        backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-    },
+    }
 ];
 
 const skills = {
@@ -236,6 +224,14 @@ const skills = {
                     imageSrc: "Spring.png",
                 },
                 {
+                    skillName: "SignalR",
+                    imageSrc: "SignalR.png",
+                },
+                {
+                    skillName: "Hangfire",
+                    imageSrc: "Hangfire.png",
+                },
+                {
                     skillName: "DotNetCore.CAP",
                     imageSrc: "CAP.png",
                 },
@@ -287,6 +283,10 @@ const skills = {
                     imageSrc: "Docker.png",
                 },
                 {
+                    skillName: "Docker Compose",
+                    imageSrc: "DockerCompose.png",
+                },
+                {
                     skillName: "Podman",
                     imageSrc: "Podman.png",
                 },
@@ -301,6 +301,14 @@ const skills = {
                 {
                     skillName: "K9s",
                     imageSrc: "K9s.png",
+                },
+                {
+                    skillName: "Prometheus",
+                    imageSrc: "Prometheus.png",
+                },
+                {
+                    skillName: "Grafana",
+                    imageSrc: "Grafana.png",
                 },
                 {
                     skillName: "Elastic Stack",
@@ -785,7 +793,7 @@ const experience = {
                     duration: "Nov 2023 - Now",
                     location: "Tan Binh District, Ho Chi Minh City",
                     description:
-                        "At GIIS, I led digital transformation projects in education, including the TMS, SDP, Helpdesk, Timetable, and Course management. My focus was on architectural design, optimizing data flows, and implementing AWS cloud solutions to enhance administrative efficiency and educational interactions.",
+                        "At GIIS, I led digital transformation projects in education, including the TMS, SDP, Helpdesk, Timetable, and Course management. I focused on architectural design, optimizing data flows, and implementing AWS cloud solutions to enhance administrative efficiency and educational interactions.",
                     color: "#ee3c26",
                 },
                 {
@@ -796,7 +804,7 @@ const experience = {
                     duration: "Jul 2023 - Nov 2023",
                     location: "District 2, Thu Duc City",
                     description:
-                        "The Hoozing Integrated Platform & System encompasses a range of projects including HzWebsite, HzAgentWebsite, and HzExternalAgent. It's designed to aid both customers and real estate agents in the comprehensive management, marketing, buying, selling, and renting of real estate properties.",
+                        "The Hoozing Integrated Platform & System encompasses a range of projects, including HzWebsite, HzAgentWebsite, and HzExternalAgent. It's designed to aid customers and real estate agents in the comprehensive management, marketing, buying, selling, and renting of real estate properties.",
                     color: "#0879bf",
                 },
                 {
@@ -807,7 +815,7 @@ const experience = {
                     duration: "Jul 2022 - Jul 2023",
                     location: "District 7, Ho Chi Minh City",
                     description:
-                        "As a maintainer for the Inventory, POS Wrapper, and OSR sources, I played a key role in a digital transformation project for Long Chau and FPT Shop. This involved integrating multiple streams, such as OMS, to ensure asmooth and efficient transition to a digital platform.",
+                        "As a maintainer for the Inventory, POS Wrapper, and OSR sources, I played a key role in a digital transformation project for Long Chau and FPT Shop. This involved integrating multiple streams, such as OMS, to ensure a smooth and efficient transition to a digital platform.",
                     color: "#9b1578",
                 },
                 {
@@ -818,7 +826,7 @@ const experience = {
                     duration: "Jul 2017 - Jul 2022",
                     location: "District 8, Ho Chi Minh City",
                     description:
-                        "Conduct structural analysis, review foundational documentation for 住友林業, calculate spacer blocks for 三菱, 小田急, 東急, ヤマビコ, determine reinforcement slab areas for 住宅 and 一建, input masses for 茨城, 東北 and 峰岸, and calculate steel reinforcement and unit dimensions. Additionally, estimate the required raw timber quantity.",
+                        "Conduct structural analysis, review foundational documentation for 住友林業, calculate spacer blocks for 三菱, 小田急, 東急, ヤマビコ, determine reinforcement slab areas for 住宅 and 一建, input masses for 茨城, 東北, and 峰岸, and calculate steel reinforcement and unit dimensions. Additionally, estimate the required raw timber quantity.",
                     color: "#fc1f20",
                 },
             ],
