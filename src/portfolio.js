@@ -279,6 +279,14 @@ const skills = {
                     imageSrc: "Vagrant.png",
                 },
                 {
+                    skillName: "Ollama",
+                    imageSrc: "Ollama.png",
+                },
+                {
+                    skillName: "Podman",
+                    imageSrc: "Podman.png",
+                },
+                {
                     skillName: "Docker",
                     imageSrc: "Docker.png",
                 },
@@ -287,16 +295,20 @@ const skills = {
                     imageSrc: "DockerCompose.png",
                 },
                 {
-                    skillName: "Podman",
-                    imageSrc: "Podman.png",
+                    skillName: "Docker Swarm",
+                    imageSrc: "DockerSwarm.png",
+                },
+                {
+                    skillName: "Minikube",
+                    imageSrc: "Minikube.png",
                 },
                 {
                     skillName: "Kubernetes",
                     imageSrc: "K8s.png",
                 },
                 {
-                    skillName: "Minikube",
-                    imageSrc: "Minikube.png",
+                    skillName: "Open WebUI",
+                    imageSrc: "OpenWebUI.png",
                 },
                 {
                     skillName: "K9s",
@@ -309,6 +321,10 @@ const skills = {
                 {
                     skillName: "Grafana",
                     imageSrc: "Grafana.png",
+                },
+                {
+                    skillName: "Watchtower",
+                    imageSrc: "Watchtower.png",
                 },
                 {
                     skillName: "Elastic Stack",
