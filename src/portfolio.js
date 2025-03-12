@@ -184,8 +184,8 @@ const skills = {
                     imageSrc: "Thymeleaf.png",
                 },
                 {
-                    skillName: "Boostrap",
-                    imageSrc: "Boostrap.png",
+                    skillName: "Bootstrap",
+                    imageSrc: "Bootstrap.png",
                 },
                 {
                     skillName: "React",
@@ -273,6 +273,14 @@ const skills = {
                 {
                     skillName: "Redis",
                     imageSrc: "Redis.png",
+                },
+                {
+                    skillName: "n8n",
+                    imageSrc: "n8n.png",
+                },
+                {
+                    skillName: "Terraform",
+                    imageSrc: "Terraform.png",
                 },
                 {
                     skillName: "Vagrant",
