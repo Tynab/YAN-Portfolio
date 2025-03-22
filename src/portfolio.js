@@ -279,12 +279,28 @@ const skills = {
                     imageSrc: "n8n.png",
                 },
                 {
+                    skillName: "Argo CD",
+                    imageSrc: "Argo.png",
+                },
+                {
+                    skillName: "Jenkins",
+                    imageSrc: "Jenkins.png",
+                },
+                {
                     skillName: "Terraform",
                     imageSrc: "Terraform.png",
                 },
                 {
+                    skillName: "Ansible",
+                    imageSrc: "Ansible.png",
+                },
+                {
                     skillName: "Vagrant",
                     imageSrc: "Vagrant.png",
+                },
+                {
+                    skillName: "Portainer",
+                    imageSrc: "Portainer.png",
                 },
                 {
                     skillName: "Ollama",
@@ -361,18 +377,6 @@ const skills = {
                 {
                     skillName: "ngrok",
                     imageSrc: "ngrok.png",
-                },
-                {
-                    skillName: "Jenkins",
-                    imageSrc: "Jenkins.png",
-                },
-                {
-                    skillName: "Ansible",
-                    imageSrc: "Ansible.png",
-                },
-                {
-                    skillName: "Portainer",
-                    imageSrc: "Portainer.png",
                 },
                 {
                     skillName: "RabbitMQ",
